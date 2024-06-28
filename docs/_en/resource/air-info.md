@@ -9,13 +9,13 @@ Air Quality Index (AQI), is a non-linear index that quantitatively describes the
 
 ## Supported regions
 
-[API v7 (legacy)](/en/docs/api/air/) is only available for China (including Hong Kong, Macao and Taiwan), and [Air Quality v1 (beta)](/en/docs/api/air-quality/) supports China, United States, and most of the countries in Europe, and will be expanding to new countries and regions in the future.
+[API v7 (legacy)](/en/docs/api/air/) is only available for China (including Hong Kong, Macao and Taiwan), and [Air Quality v1 (new)](/en/docs/api/air-quality/) supports China, United States, and most of the countries in Europe, and will be expanding to new countries and regions in the future.
 
 ## Supported AQIs
 
 Different countries and regions have their own air quality indices, corresponding to different national air quality standards, there are currently no worldwide common air quality standards. [WHO Global Air Quality Guidelines](https://www.who.int/news-room/feature-stories/detail/what-are-the-who-air-quality-guidelines) recommend interim targets for air quality and pollutants. However, it is not legally binding and is only a reference document.
 
-The AQI may have different standards or different calculation methods in some countries and regions. [Air Quality v1 (beta)](/en/docs/api/air-quality/) will provide one or more types of AQI data according to local standards. The following are the AQIs we support and their corresponding value ranges, categories, etc.
+The AQI may have different standards or different calculation methods in some countries and regions. [Air Quality v1 (new)](/en/docs/api/air-quality/) will provide one or more types of AQI data according to local standards. The following are the AQIs we support and their corresponding value ranges, categories, etc.
 
 {% include aqi-table.html %}
 
@@ -127,7 +127,7 @@ In addition, the measurement units for pollutant concentration also vary. Refer 
 
 ### Pollutant sub-index
 
-> **Hint:** Pollutant sub-index are only available for [Air Quality v1 (beta)](/en/docs/api/air-quality/) and do not work for [API v7 (legacy)](/en/docs/api/air/).
+> **Hint:** Pollutant sub-index are only available for [Air Quality v1 (new)](/en/docs/api/air-quality/) and do not work for [API v7 (legacy)](/en/docs/api/air/).
 
 The pollutant sub-index is the AQI for each pollutant. Usually, we need to calculate the sub-index first, and then the worst sub-index representation is the current AQI value, for example:
 

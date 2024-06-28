@@ -1,12 +1,10 @@
 ---
-title: Real-time Air Quality (beta)
+title: Current Air Quality (new)
 tag: [guide, api, aq-v1, now-v1]
 ref: 1-api-air-now-v1
 ---
-Global air quality real-time data, we provide AQI and pollutant concentration based on the local standard of each country or region, you can check the current hourly real-time data of the city or monitoring station.
 
-> **Note:** New Air Quality v1 is currently in beta and there is no charge for standard subscriptions at this time. Data may vary when the official release.
-{:.bqwarning}
+Real-time air quality data supports current AQI, pollutant concentration, sub-indexes and health advice, based on the local standard and monitoring station.
 
 > **Hint:** It is recommended to read the [Air Quality Info](/en/docs/resource/air-info/) for details on index types, pollutants, supported countries, etc.
 

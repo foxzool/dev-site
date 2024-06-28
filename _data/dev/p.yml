@@ -313,3 +313,13 @@ aq-sta:
   text: 
     en: Monitoring station ID and name, boolean and default `false`.
     zh: 返回当前城市AQI所参考的监测站ID和名字，布尔值，默认`false`。 
+aq-day:
+  name: day
+  text: 
+    en: Number of forecast days, support 1-7 days, default is `7`. Please note that 7-days forecast is not available for all locations.
+    zh: 预报天数，支持1-7天预报。默认`7`。请注意，并非所有地点支持7天预报。 
+aq-hour:
+  name: hour
+  text: 
+    en: Number of forecast hours, support 1-72 hours, default is `24`. Please note that 72-hour forecast is not available for all locations.
+    zh: 预报小时数，支持1-72小时预报。默认`24`。请注意，并非所有地点支持72小时预报。
